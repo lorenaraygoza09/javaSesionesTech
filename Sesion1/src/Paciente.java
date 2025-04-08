@@ -1,17 +1,25 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Paciente {
-    Scanner teclado = new Scanner(System.in);
-    String name;
-    int age;
-    String numExpediente;
+    //atributos
+    private String name;
+    private int age;
+    private String numExpediente;
 
-    public void mostrarInformacion(){
+    // constructor
+    public Paciente(String name, int age, String numExpediente) {
+        this.name = name;
+        this.age = age;
+        this.numExpediente = numExpediente;
+    }
+
+    //metodo para mostrar la informacion del paciente
+    public void MostrarInformacion() {
         System.out.printf("""
-                Nombre del paciente %s
-                Edad del paciente: %d
-                Numero de expediente %s""", name, age, numExpediente);
+                Nombre del paciente: %s.
+                Edad del paciente: %d.
+                Numero de expediente: %s.""", name, age, numExpediente);
     }
 }
+
 
