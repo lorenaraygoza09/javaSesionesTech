@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package reto1;
 
 public class Paciente {
     //atributos
