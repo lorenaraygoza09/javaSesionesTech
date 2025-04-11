@@ -23,6 +23,5 @@ public class SimuladorFarmacia {
                 Descuento: $%.2f
                 Total a pagar: $%.2f
                 """, medicamento, piezas, precioMedicamento, totalSinDescuento, aplicaDescuento, descuento, totalConDescuento);
-
     }
 }

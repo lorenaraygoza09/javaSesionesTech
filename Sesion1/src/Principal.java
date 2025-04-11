@@ -8,9 +8,8 @@ public class Principal {
         //llamando al metodo saludar()
         estudiante1.Saludar();
 
-        /* //objetos de tipo producto
-        Producto producto1 = new Producto("Termo para agua", 250.35);
-        producto1.mostrarInfo();
-         */
+        //objetos tipo producto
+        Producto producto1 =  new Producto("Lapiz", 18.99);
+        System.out.println(producto1.nombre);
     }
 }

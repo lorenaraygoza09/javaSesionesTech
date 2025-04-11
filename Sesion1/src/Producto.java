@@ -9,6 +9,9 @@ public class Producto {
     }
     //metodo que imprime la info en consola
     public void mostrarInfo(){
-        System.out.printf("Producto: %s, precio: %.2f.", nombre, precio);
+        System.out.printf("""
+                Producto: %s
+                Precio: %.2f.
+                """, nombre, precio);
     }
 }
