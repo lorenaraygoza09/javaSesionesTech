@@ -16,5 +16,6 @@ public class ImplProyecto {
         p1.mostrarInfo();
         //atributo static: total de proyectos creados
         System.out.println("\nTotal de proyectos creados: " + Proyecto.totalProyectos);
+
     }
 }
